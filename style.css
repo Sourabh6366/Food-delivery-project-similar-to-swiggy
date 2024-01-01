@@ -1,0 +1,111 @@
+.grid-container{
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px;
+}
+.item1{
+    margin-top: 60px;
+    margin-left: 30px; 
+}
+.logo{
+    height: 70px;
+    width: auto;
+}
+.banner{
+    height: auto;
+    max-width: 100%;
+    margin-top: 5%;
+}
+.links{
+    float: right;
+    height: 15px;
+    width: 15%;
+    text-decoration: dotted;
+    text-align: centre;
+    padding: 10px;
+    color: black;
+
+}
+.signup{
+    background-color: black;
+    color: white;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+h1{
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+h2{
+    color: gray;
+    margin-top: 10px;
+}
+.locationinput{
+    width: 70%;
+    height: 25px;
+    color: gray;
+    margin: 40px auto auto 0px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.location{
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 330px;
+    left: 450px;
+    padding: 15px;
+}
+button:hover{
+    background-color: lightgray;
+}
+.findfood{
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0 2rem;
+    letter-spacing: 0;
+    color: white;
+    background-color:#fc8019;
+    line-height: 50px;
+}
+.cities{
+    font-size: 15px;
+    color: #a9abb2;
+    margin: 30px 0 10px 0;
+    letter-spacing: -.2px;
+    text-transform: uppercase;
+}
+.citylist{
+    width: 570px;
+    list-style: none;
+    margin-top: 20px;
+}
+.lists{
+    font-weight: 600;
+    font-size: 16px;
+    margin-right: 10px;
+    color: #686b78;
+    line-height: 1.5;
+    letter-spacing: -.3px;
+    text-decoration: none;
+}
+.list:nth-child(even){
+    color: lightslategray;
+}
+
+
+
+
+
+
+
+    
